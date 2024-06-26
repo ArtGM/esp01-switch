@@ -32,29 +32,6 @@ To flash the ESP-01 module with PlatformIO, follow these steps:
 
 5. Wait for the flashing process to complete. Once done, you should see the success message in the terminal.
 
-## Usage 
-
-You can access the esp-01 web server on your local network using the IP address that your box has automatically assigned to it (you can usually find it in the box management interface in the connected objects section).
-
-If you want to have acces to the web server outside of your local network, you set-up your box with Duck DNS, to open a bridge forwarded to your esp-01 or you can use Ngrok
-
-## Troubleshooting
-
-If you encounter any issues during the flashing process, try the following troubleshooting steps:
-
-- Make sure the ESP-01 module is properly connected to your computer.
-- Check that you have selected the correct serial port in the PlatformIO configuration.
-- Ensure that you have the necessary permissions to access the serial port.
-
-If the issue persists, refer to the [PlatformIO documentation](https://docs.platformio.org/) or seek help from the community.
-
-## Contributing
-
-Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Flashing ESP-01 with PlatformIO Extension for VSCode
 
@@ -83,3 +60,21 @@ To flash the ESP-01 module using the PlatformIO extension for VSCode, follow the
 11. Feel free to contribute to this repository by opening a pull request if you have any improvements or bug fixes.
 
 12. This project is licensed under the MIT License.
+
+# Usage 
+
+You can access the esp-01 web server on your local network using the IP address that your box has automatically assigned to it (you can usually find it in the box management interface in the connected objects section).
+
+If you want to have acces to the web server outside of your local network, you set-up your box with Duck DNS, to open a bridge forwarded to your esp-01 or you can use Ngrok
+
+
+## Troubleshooting
+
+If you encounter any issues during the flashing process, try the following troubleshooting steps:
+
+- Make sure the ESP-01 module is properly connected to your computer.
+- Check that you have selected the correct serial port in the PlatformIO configuration.
+- Ensure that you have the necessary permissions to access the serial port.
+
+If the issue persists, refer to the [PlatformIO documentation](https://docs.platformio.org/) or seek help from the community.
+
